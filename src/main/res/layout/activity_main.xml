@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2"
+    android:columnCount="2"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+    <!-- Row 1, Column 1 -->
+    <TextView
+        android:layout_row="0"
+        android:layout_column="0"
+        android:text="Row 1, Column 1"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Row 1, Column 2 -->
+    <TextView
+        android:layout_row="0"
+        android:layout_column="1"
+        android:text="Row 1, Column 2"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Row 2, Column 1 -->
+    <TextView
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="Row 2, Column 1"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Row 2, Column 2 -->
+    <TextView
+        android:layout_row="1"
+        android:layout_column="1"
+        android:text="Row 2, Column 2"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</GridLayout>
